@@ -96,3 +96,5 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 
+*.js
+*.js.map
