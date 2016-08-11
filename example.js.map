@@ -1,1 +1,0 @@
-{"version":3,"file":"example.js","sourceRoot":"","sources":["example.ts"],"names":[],"mappings":"AAAA,IAAI,MAAM,GAAG,IAAI,MAAM,EAAE,CAAC;AAC1B,IAAI,QAAQ,GAAG,MAAM,CAAC,WAAW,EAAE,CAAC;AAGpC,IAAI,GAAG,GAAG,MAAM,CAAC,YAAY,EAAE,CAAC","sourcesContent":["var Switch = new Switch();\nvar flowName = Switch.getFlowName();\n\n\nvar job = Switch.createNewJob();"]}
