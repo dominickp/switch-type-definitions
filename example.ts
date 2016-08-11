@@ -1,5 +1,10 @@
-var Switch = new Switch();
-var flowName = Switch.getFlowName();
+function jobArrived( s : Switch, job : Job )
+{
+    job.getName();
+    s.getFlowName();
+}
 
-
-var job = Switch.createNewJob();
+function timerFired( s : Switch )
+{
+    s.getFlowName();
+}
