@@ -1,13 +1,17 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es5",
+        "target": "es3",
         "noImplicitAny": false,
         "sourceMap": true,
         "inlineSources": true,
-        "strictNullChecks": true,
+//        "strictNullChecks": true,
         "removeComments": false
     },
+    "files":[
+        "typings/**/*.d.js",
+        "example.ts"
+    ],
     "exclude": [
         "node_modules"
     ]

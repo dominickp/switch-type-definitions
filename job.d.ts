@@ -1,5 +1,5 @@
 
-export class Job {
+declare class Job {
     constructor();
 
     // Getting job file/folder information
@@ -49,7 +49,7 @@ export class Job {
 
 }
 
-declare module "enfocus-switch-job" {
+declare module "job" {
     export = Job;
 }
 

@@ -1,5 +1,4 @@
-
-export class Switch {
+declare class Switch {
     constructor();
 
     /*=========================================================
@@ -134,6 +133,6 @@ export class Switch {
 
 }
 
-declare module "enfocus-switch-switch" {
+declare module "switch" {
     export = Switch;
 }
